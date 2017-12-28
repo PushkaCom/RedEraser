@@ -1,4 +1,18 @@
 # Reddit-History-Eraser
+
+
+Update - 2017-12-28 - There were errors, some PRAW syntax has changed - this currently works with the latest PRAW, 
+
+CronJob to delete all reddit data (on dreamhost it is running forever... but it works
+
+. ~/cron_delete_reddit.sh
+
+!/bin/bash
+source /home/USER/CRON/bin/activate
+python /home/USER/CRON/reddit/reddit_delete_all2.py
+exit 0
+
+
 Using Praw and Python this will erase up to 100 billion posts and comments in one run through. Or however many comments or posts the user has. The user can also specify how many comments and/or posts they would like deleted. 
 
 This script relies on only one library, Praw: https://praw.readthedocs.org/en/v2.1.21/ the Python Reddit Api Wrapper. My recommended way of installing any python library is through pip. 
