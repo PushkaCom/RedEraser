@@ -2,7 +2,11 @@
 
 - - - - - 
 
-## Update - 2017-12-28 - There were errors, some PRAW syntax has changed - this currently works with the latest PRAW, 
+## Update - DEC 2017
+
+### Fork: There were errors, some PRAW syntax had changed
+
+### This currently works with the latest PRAW 2017.11.5 praw-5.3.0 prawcore-0.13.0
 
 CronJob to delete all reddit data (on dreamhost it is running forever... but it works
 
